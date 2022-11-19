@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate's_main_page</title>
+    <h1>Candidate's Menu</h1>
+    <link rel="stylesheet" href="../assignment/siteMainMenu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <style>
+        h2 {
+
+            text-align: left;
+           
+
+
+
+        }
+
+        .buttons {
+            text-align: center;
+            margin-right: 600px;
+        }
+
+        tr {
+            background-color: rgba(16, 14, 13, 0.389);
+            color: rgb(253, 254, 255);
+            font-weight: bolder;           
+        }
+
+        .addCandidateFormDiv
+        {
+           text-align: left;
+        }
+
+        
+    </style>
+   
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+       
+        
+
+        
+
+        
+</head>
+
+<body background="../images/peoplecert.jpg">
+    <div class="buttons">
+        <a class="btn btn-primary" href="../assignment/CandidDetails.html" role="button">Home Page</a>
+        <a class="btn btn-dark" id="formAddButton">Add/Edit Candidate</a>
+        
+    </div>
+
+   
+
+           
+
+
+    </div>
+    <div class="container">
+        
+        <div id="addCandidateFormDiv" style="width: 20%">
+            <form id="addCandidateForm">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="number" name="candidate_number" required>
+                    <label for="floatingInput">Candidate Number</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="fname" placeholder="text" name="fname" required>
+                    <label for="fname">First Name</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="mname" placeholder="text" name="mname" required=>
+                    <label for="mname">Middle Name</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="lname" placeholder="text" name="lname" required>
+                    <label for="lname">Last Name</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <select class="form-select" id="gender" aria-label="Floating label select example" name="gender">
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                    </select>
+                    <label for="floatingSelect">Gender</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="languange" placeholder="text" name="Languange">
+                    <label for="languange">Native Languange</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input  type="date" id="birthdate" class="form-control" name="birthdate">
+                    <label for="birthdate">Birth date</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <select class="form-select" id="photo_idType" aria-label="Floating label select example"
+                        name="photoid">
+                        <option value="1">National Card</option>
+                        <option value="2">Passport</option>
+                    </select>
+                    <label for="photo_idType">Photo ID Type</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="idInput" placeholder="text" name="photoidinmbr" required>
+                    <label for="idInput">Photo ID Number</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input placeholder="Select date" type="date" id="example" class="form-control" name="photoIddate" required>
+                    <label for="photoIddate">Photo ID Issue date</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" name="email">
+                    <label for="floatingInput">Email address</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="address" class="form-control" id="address1" placeholder="text" name="address">
+                    <label for="inputAddress">Address</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="address" class="form-control" id="adress2" placeholder="text" name="address2">
+                    <label for="inputAddress">Address 2</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="adress" class="form-control" id="country" placeholder="text" name="country">
+                    <label for="country">Country of Residence</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="inputState" placeholder="text" name="state">
+                    <label for="inputState">State/Territory/Province</label>
+
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="inputCity" placeholder="text" name="city">
+                    <label for="inputCity">Town/City</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="inputZip" placeholder="text" name="zip">
+                    <label for="inputZip">Postal Code</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="tel" class="form-control" id="mobilephone" placeholder="text" name="mobile">
+                    <label for="phone">Mobile Number</label>
+                </div><br>
+
+                <div class="form-floating">
+                    <input type="tel" class="form-control" id="phone" placeholder="text" name="landline">
+                    <label for="phone">Landline Number</label>
+                </div><br>
+                <input type="text" style="display:none ;" name="index" value="">
+                
+                                <input class="btn btn-primary" input type="submit" value="Submit" class="registerbtn"
+                                    onclick="addCandidate(event); return false">
+
+                    
+                    
+                       
+                
+                          
+                            
+                
+                           
+                        
+                   
+
+
+
+            </form>
+        </div>
+        <hr>
+        <h2>List of Candidates</h2>
+        <div class="container" style="width: 60%">
+            <hr>
+            <table id="ListOfCandidates" class="table someClass" >
+
+                <tbody id="ListOfCandidatesBody">
+                    <tr>
+                        <th scope="col">Index</th>
+                        <th scope="col">Candidate Number</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">options</th>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        
+
+        <script src="../assignment/addCertificate.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

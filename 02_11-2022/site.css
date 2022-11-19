@@ -1,0 +1,21 @@
+.imgw{
+    width: 10%;
+    
+}
+
+.img{
+    width: 30%;
+    margin-bottom: -9%;
+}
+.alignleft{
+    text-align:left;
+    width:50%;
+}
+
+span.aligncenter{
+    margin:auto;
+    
+}
+.floatleft{
+    float: left;
+}

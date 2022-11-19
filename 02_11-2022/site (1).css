@@ -1,0 +1,45 @@
+.imgw {
+    width: 10%;
+     display: block; 
+}
+
+img {
+    border-style:solid;
+    width:160px;
+    border-radius:0px;       
+    margin-right:10px;
+    float:left;
+    margin-left: 24px; 
+}
+
+.alignleft {
+    text-align: left;
+    width: 50%;
+    
+}
+ h2{            
+    padding-left: 45px;  
+    margin-top: 40px;
+    color: blue;
+    border-style: dotted;
+  border-color:black
+}
+
+h3{
+    padding-left: 14px;
+}
+.cvname{
+    color:rgb(237, 97, 27);
+}
+
+span{
+    color:blue;
+} 
+
+.background{
+    background-color: rgb(236, 227, 227);
+}
+
+    
+
+

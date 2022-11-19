@@ -1,0 +1,64 @@
+header{
+    border-style: solid;
+    border-color: black;
+    background-color: aquamarine;
+}
+nav{
+    background-color: rgb(62, 224, 12);
+    border-style: solid;
+    border-color: black;
+  
+}
+
+
+img{
+    width:152px;
+    margin-right:10px;
+    float:left;
+    margin-left: 0px; 
+    margin-right:50px;
+}
+
+article{
+    float: under;
+    background-color: rgb(54, 204, 204);
+    border-style: solid;
+    border-color: black;
+  
+margin-top: 40px;
+margin-right: 400px;
+
+}
+.education{
+   background-color: orangered;
+border-style: solid;
+border-color:black;
+}
+
+.companies{
+    background-color: orangered;    
+border-style: solid;
+border-color:black;
+}
+
+.interests
+{
+    background-color: orangered;  
+border-style: solid;
+border-color:black;
+}
+span{
+    color: blue;
+}
+
+aside{
+    float:right;
+    width: 20%;
+ text-align:150px;
+    
+}
+footer{
+    border-style: solid;
+border-color:black;
+}
+

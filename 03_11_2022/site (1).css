@@ -1,0 +1,67 @@
+.imgw {
+    width: 10%;
+     display: block; 
+}
+
+img {
+    border-style:solid;
+    width:12%;
+    border-radius:20px;       
+    margin-right:10px;
+    float:left;
+    margin-left: 24px; 
+}
+
+.alignleft {
+    text-align: left;
+    width: 50%;
+    
+}
+ h2{            
+    padding-left: 45px;  
+    margin-top: 40px;
+    color: blue;
+    border-style: dotted;
+  border-color:black
+}
+
+h3{
+    padding-left: 14px;
+    
+}
+.cvname{
+    color:rgb(237, 97, 27);
+}
+
+span{
+    color:blue;
+} 
+
+.background{
+    border-style: solid;
+    border-color:black;
+   background-color: black;
+}
+
+
+
+.beaty{
+    background-color: rgb(165, 164, 163);
+    border-style:solid;
+    border-color: black;
+
+}
+
+.second{
+    background-color: rgb(165, 164, 163);
+    border-style:solid;
+    border-color: black;
+}
+
+.third{
+    background-color: rgb(165, 164, 163);
+    border-style:solid;
+    border-color: black;
+}
+
+
